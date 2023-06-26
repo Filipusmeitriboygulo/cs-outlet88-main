@@ -1,0 +1,35 @@
+:root {
+    /* color */
+    --primaryColor : #EEDDCC;
+    --secondaryColor : #fff;
+    --thirdColor : #34251F;
+    --fourcolors : #34251F;
+    /* background: #EEDDCC; */
+    /* font */
+    --mainfont:'Lato', sans-serif;
+    --headingfont: 'Frank Ruhl Libre', serif;
+}
+
+body {
+    /* background: var(--secondaryColor); */
+    background-image: url('../img/BG2.png');
+    font-family: var(--headingfont);
+}
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 54px;
+    color: var(--fourcolors);
+}
+p{
+    font-family: var(--mainfont);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2rem;
+    color: var(--fourcolors);
+}
+
+.btn-home .btn-shop {
+    background-color: var(--secondaryColor);
+    font-size: 20px !important; 
+}
