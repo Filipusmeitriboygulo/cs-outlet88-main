@@ -91,8 +91,8 @@
 
 
     {{-- Our Product --}}
-    <div class="promo">
-        <h1 class="promo ">Our Product</h1>
+    <div class="produk">
+        <h1 class="produk">Our Product</h1>
         <ul class="horizontal-list">
             <li>Hot</li>
             <li>On Sale</li>
@@ -177,7 +177,7 @@
           <button class="button-arounder">SHOP NOW</button>
         </div>
         <div class="banner-image">
-            <img src="{{ asset('img/products/f8.jpg') }}" alt="Banner Image">
+            <img src="{{ asset('img/products/f6.jpg') }}" alt="Banner Image">
         </div>
       </div>
       
@@ -206,10 +206,6 @@
 
       
       {{-- Footer --}}
-      
-      <!-- Remove the container if you want to extend the Footer to full width. -->
-<!-- Remove the container if you want to extend the Footer to full width. -->
-<!-- Remove the container if you want to extend the Footer to full width. -->
 
 <div class="fixed-bottom text-center py-2">
     <p>Follow Our Instagram : @cs_outlet88</p>

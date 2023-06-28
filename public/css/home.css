@@ -131,9 +131,9 @@ p.best-fashion {
 /* Our Produt */
 
 
-h6.product {
-    text-align: justify;
-    padding-top: 40vh;
+h1.produk {
+    text-align: center;
+    padding-top: 12vh;
     width: 100%;    
 }
 
@@ -155,7 +155,7 @@ h6.product {
 }
 
 .product-section {
-    padding: 40px;
+    padding: 15px;
   }
   
   .product-card {
@@ -270,7 +270,7 @@ h6.product {
   /* Testimoni */
   .testimonial-section {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     height: 20vh;
     width: 100%;
   }
@@ -292,7 +292,7 @@ h6.product {
     font-size: 45px;
     font-weight: 300;
     width: 500px;
-    padding: 20px;
+    padding: 15px;
     background-color: #EEDDCC;
     margin: 0 10px;
     text-align: center;
