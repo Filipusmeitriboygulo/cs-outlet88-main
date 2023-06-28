@@ -18,9 +18,15 @@
     
     @include('partials.navbar')
     
-    <div class="container mt-5">
+    <section class="home container mt-5">
         @yield('container')
-    </div>
+    </section>
+
+    {{-- <section class="promo container mt-5">
+        @include('partials.promo')
+    </section> --}}
+     
+    
 
     {{-- @include('partials.footer') --}}
 
