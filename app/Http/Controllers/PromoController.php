@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class PromoController extends Controller
 {
     public function promo () {
-        return view('@yield@promo');
+        return view('promo');
     }
 };

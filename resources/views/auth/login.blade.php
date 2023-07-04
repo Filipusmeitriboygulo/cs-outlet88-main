@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
+<div class="container" style="padding-top: 13rem">
+    {{-- <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
@@ -66,6 +66,29 @@
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div> --}}
+
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8 d-flex justify-content-center">
+            <div class="row text-center d-flex justify-content-center">
+                <h2>LOGIN</h2>
+                <h1>Cs_Outlet88 <i class="bi bi-cart3"></i></h1>
+                <div class="col-lg-5">
+                    <form method="POST" action="{{ route('login') }}">
+                        @csrf
+                        {{-- <input type="email" class="form-control rounded-5 my-4" id="exampleFormControlInput1" placeholder="USERNAME"> --}}
+                        <input id="email" type="email" class="form-control rounded-5 my-4 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="USERNAME">
+                        {{-- <input type="password" class="form-control rounded-5" id="exampleFormControlInput1" placeholder="PASSWORD"> --}}
+                        <input id="password" type="password" class="form-control rounded-5 @error('password') is-invalid @enderror" name="password" required autocomplete="current-password"  placeholder="PASSWORD">
+                        <button type="submit" class="btn mt-3 text-light px-5 rounded-5" style="background-color: brown">
+                            {{ __('Login') }}
+                        </button>
+                    </form>
+
+                </div>
+                <p class="mt-4">BELUM PUNYA AKUN <a href="register" style="color: #2ACEF2">DAFTAR AKUN</a></></p>
             </div>
         </div>
     </div>

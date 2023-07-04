@@ -21,4 +21,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/promo', [App\Http\Controllers\PromoController::class, 'promo'])->name('promo');
-Route::get('/promo', [App\Http\Controllers\PromoController::class, 'login'])->name('login');
+// Route::get('/promo', [App\Http\Controllers\PromoController::class, 'login'])->name('login');
