@@ -89,7 +89,7 @@
 <body>
     <header>
         <div class="hero">
-            <h1>Welcome to Our Landing Page</h1>
+            <img src="{{ asset('img/banner/b1.jpg') }}" alt="">
         </div>
     </header>
 
@@ -122,8 +122,13 @@
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2023 Promo Landing Page. All rights reserved.</p>
-    </footer>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; cs_outlet88</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Instagram</a></li>
+          <li class="list-inline-item"><a href="#">Facebook</a></li>
+          <li class="list-inline-item"><a href="#">Tiktok</a></li>
+        </ul>
+      </footer>
 </body>
 </html>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/home.css">
     <link rel="stylesheet" type="text/css" href="/css/navbar.css">
-    {{-- <link rel="stylesheet" type="text/css" href="/css/style_promo.css"> --}}
+    <link rel="stylesheet" type="text/css" href="/css/about.css">
 </head>
 
 <body>

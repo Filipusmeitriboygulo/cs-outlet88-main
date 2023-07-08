@@ -30,4 +30,10 @@ Route::get('/checkout', [CheckoutController::class, 'index'])->middleware('auth'
 Route::post('/checkout/process', [CheckoutController::class, 'processCheckout'])->middleware('auth')->name('checkout.process');
 Route::get('/checkout/success', [CheckoutController::class, 'success'])->middleware('auth')->name('checkout.success');
 
+// About
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+
 
