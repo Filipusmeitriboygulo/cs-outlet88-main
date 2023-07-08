@@ -26,9 +26,9 @@ Route::get('/buy_now', [App\Http\Controllers\BuyNowController::class, 'buy_now']
 
 // Route Checkout
 Route::get('/checkout', [App\Http\Controllers\CheckoutController::class, 'checkout'])->name('checkout');
-Route::get('/checkout', [CheckoutController::class, 'index'])->middleware('auth')->name('checkout.index');
-Route::post('/checkout/process', [CheckoutController::class, 'processCheckout'])->middleware('auth')->name('checkout.process');
-Route::get('/checkout/success', [CheckoutController::class, 'success'])->middleware('auth')->name('checkout.success');
+Route::get('/checkout', [App\Http\Controllers\CheckoutController::class, 'index'])->middleware('auth')->name('index');
+Route::get('/checkout/process', [App\Http\Controllers\CheckoutController::class, 'processCheckout'])->middleware('auth')->name('process');
+Route::get('/checkout/success', [App\Http\Controllers\CheckoutController::class, 'success'])->middleware('auth')->name('success');
 
 // About
 Route::get('/about', function () {

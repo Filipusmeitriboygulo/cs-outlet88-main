@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class CheckoutController extends Controller
 {
-    public function checkout() {
+    public function index() {
         return view('checkout');
     }
 
@@ -44,7 +44,7 @@ class CheckoutController extends Controller
         $order->save();
 
         // Tampilkan pesan berhasil dan redirect ke halaman sukses
-        return redirect()->route('checkout.success')->with('success', 'Checkout successful.');
+        return redirect()->route('success')->with('success', 'Checkout successful.');
     }
 
     public function success()
