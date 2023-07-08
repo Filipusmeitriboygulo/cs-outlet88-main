@@ -108,7 +108,7 @@
                   <img src="{{ asset('img/products/f2.jpg') }}" alt="Product 1">
                   <h4>Product 1</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="#" class="btn">Buy Now</a>
+                  <a href="buy_now" class="btn">Buy Now</a>
                 </div>
               </div>
               <div class="col-md-6 col-lg-3">
