@@ -23,4 +23,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/promo', [App\Http\Controllers\PromoController::class, 'promo'])->name('promo');
 // Route::get('/promo', [App\Http\Controllers\PromoController::class, 'login'])->name('login');
 Route::get('/buy_now', [App\Http\Controllers\BuyNowController::class, 'buy_now'])->name('buy_now');
+
+// Route Checkout
 Route::get('/checkout', [App\Http\Controllers\CheckoutController::class, 'checkout'])->name('checkout');
+Route::get('/checkout', [CheckoutController::class, 'index'])->middleware('auth')->name('checkout.index');
+Route::post('/checkout/process', [CheckoutController::class, 'processCheckout'])->middleware('auth')->name('checkout.process');
+Route::get('/checkout/success', [CheckoutController::class, 'success'])->middleware('auth')->name('checkout.success');
+
+

@@ -209,9 +209,13 @@
       
       {{-- Footer --}}
 
-<div class="fixed-bottom text-center py-2">
-    <p>Follow Our Instagram : @cs_outlet88</p>
-    Copyright 2022 Filipus Mei Tri Boy Gulo
-</div>
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; cs_outlet88</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Instagram</a></li>
+          <li class="list-inline-item"><a href="#">Facebook</a></li>
+          <li class="list-inline-item"><a href="#">Tiktok</a></li>
+        </ul>
+      </footer>
 @endsection
 
