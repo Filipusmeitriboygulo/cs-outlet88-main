@@ -6,7 +6,7 @@
         <h1 class="head-line">Temukan Fashion Yang Paling Cocok <br> Denganmu</h1>
         <h6 class="description mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, repellendus doloremque! Reprehenderit id sapiente provident perspiciatis velit beatae, corrupti dolores?</h6>
         <div class="buttons-container mt-5">
-            <button class="button-arounder">SHOP NOW</button>
+            <a href="best_fashion"><button class="button-arounder">SHOP NOW</button></a>
         </div>
     </div>
     <div class="col-md-6 ps-5">
@@ -61,7 +61,7 @@
         <p class="best-fashion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue eros, 
         eget tincidunt ipsum eleifend ut orem ipsum dolor sit amet consectetur adipiscing elit Sed ullamcorper congue eros eleifend ut tincidunt ipsum .</p>
         <div class="buttons-container mt-5">
-            <button class="button-arounder">SHOW MORE</button>
+            <a href="show_more"><button class="button-arounder">SHOW MORE</button></a>
         </div>
     </div>
     
@@ -176,7 +176,7 @@
         <div class="banner-content">
           <h1>Deal Of The Day</h1>
           <p>Discover amazing products and great deals!</p>
-          <button class="button-arounder">SHOP NOW</button>
+          <a href="best_fashion"><button class="button-arounder">SHOP NOW</button></a>
         </div>
         <div class="banner-image">
             <img src="{{ asset('img/products/f6.jpg') }}" alt="Banner Image">

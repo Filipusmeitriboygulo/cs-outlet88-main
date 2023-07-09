@@ -23,6 +23,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/promo', [App\Http\Controllers\PromoController::class, 'promo'])->name('promo');
 // Route::get('/promo', [App\Http\Controllers\PromoController::class, 'login'])->name('login');
 Route::get('/buy_now', [App\Http\Controllers\BuyNowController::class, 'buy_now'])->name('buy_now');
+Route::get('/best_fashion', [App\Http\Controllers\BestFashionController::class, 'best_fashion'])->name('best_fashion');
+Route::get('/show_more', [App\Http\Controllers\ShowMoreController::class, 'show_more'])->name('show_more');
+
 
 // Route Checkout
 Route::get('/checkout', [App\Http\Controllers\CheckoutController::class, 'checkout'])->name('checkout');
