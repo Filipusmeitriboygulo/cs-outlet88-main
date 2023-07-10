@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
             $table->unsignedBigInteger('user_id');
             $table->string('first_name');
             $table->string('last_name');
@@ -26,6 +25,7 @@ return new class extends Migration
             $table->string('credit_card_number');
             $table->string('credit_card_expiration');
             $table->string('credit_card_cvv');
+            $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });

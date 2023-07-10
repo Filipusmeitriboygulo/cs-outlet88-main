@@ -26,6 +26,17 @@ Route::get('/buy_now', [App\Http\Controllers\BuyNowController::class, 'buy_now']
 Route::get('/best_fashion', [App\Http\Controllers\BestFashionController::class, 'best_fashion'])->name('best_fashion');
 Route::get('/show_more', [App\Http\Controllers\ShowMoreController::class, 'show_more'])->name('show_more');
 
+// Stripe
+Route::post('/session', [App\Http\Controllers\StripeController::class, 'session'])->name('session');
+Route::get('/success', [App\Http\Controllers\StripeController::class, 'success'])->name('success');
+Route::get('/cancel', [App\Http\Controllers\StripeController::class, 'cancel'])->name('cancel');
+// Product
+
+Route::get('/', [App\Http\Controllers\ProductsController::class, 'index']);
+Route::get('cart', [App\Http\Controllers\ProductsController::class, 'cart'])->name('cart');
+Route::get('add-to-cart/{id}', [App\Http\Controllers\ProductsController::class, 'addToCart'])->name('add_to_cart');
+Route::patch('update-cart', [App\Http\Controllers\ProductsController::class, 'update'])->name('update_cart');
+Route::delete('remove-from-cart', [App\Http\Controllers\ProductsController::class, 'remove'])->name('remove_from_cart');
 
 // Route Checkout
 Route::get('/checkout', [App\Http\Controllers\CheckoutController::class, 'checkout'])->name('checkout');

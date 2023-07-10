@@ -2,51 +2,43 @@
 
 @section('content')
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Our Company</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra iaculis urna, vitae tincidunt quam tincidunt eu.</p>
-            <a href="#about" class="btn btn-primary">Learn More</a>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra iaculis urna, vitae tincidunt quam tincidunt eu. Sed gravida feugiat est at consequat.</p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="{{ asset('images/about.jpg') }}" alt="About Image">
-                </div>
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>About Us</h2>
+          </div>
+  
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              </ul>
             </div>
-        </div>
-    </section>
-
-    <!-- Additional Content Section -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Our Mission</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra iaculis urna, vitae tincidunt quam tincidunt eu. Sed gravida feugiat est at consequat.</p>
-                </div>
-                <div class="col-lg-6">
-                    <h2>Our Vision</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra iaculis urna, vitae tincidunt quam tincidunt eu. Sed gravida feugiat est at consequat.</p>
-                </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="#" class="btn-learn-more">Learn More</a>
             </div>
+          </div>
+  
         </div>
-    </section>
+      </section>
+      <!-- End About Us Section -->
+    
 
-    <!-- Banner Section -->
-    <section class="banner">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra iaculis urna, vitae tincidunt quam tincidunt eu.</p>
-            {{-- <a href="{{ route('contact') }}" class="btn btn-primary">Get in Touch</a> --}}
-        </div>
-    </section>
+    
+
+    
 @endsection

@@ -13,7 +13,7 @@
                     <a class="nav-link active" aria-current="page" href="promo">PROMO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+                    <a class="nav-link active" aria-current="page" href="show_more">SHOP</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="about">ABOUT</a>

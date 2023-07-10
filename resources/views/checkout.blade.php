@@ -136,7 +136,7 @@
             </div>
           </div>
 
-          <div class="row gy-3">
+          {{-- <div class="row gy-3">
             <div class="col-md-6">
               <label for="cc-name" class="form-label">Name on card</label>
               <input type="text" class="form-control" id="cc-name" placeholder="" required>
@@ -169,7 +169,7 @@
                 Security code required
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <hr class="my-4">
 
