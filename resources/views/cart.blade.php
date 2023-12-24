@@ -1,4 +1,4 @@
-@extends('home')
+@extends('layouts_products')
     
 @section('content')
 <table id="cart" class="table table-hover table-condensed">

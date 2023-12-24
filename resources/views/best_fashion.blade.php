@@ -122,7 +122,7 @@
         <label for="quantity">Quantity:</label>
         <input type="number" id="quantity" value="1" min="1">
       </div>
-      <a href="#" class="cart-button">
+      <a href="cart" class="cart-button">
         <i class="cart-icon">&#128722;</i>
         Masukkan Keranjang
       </a>

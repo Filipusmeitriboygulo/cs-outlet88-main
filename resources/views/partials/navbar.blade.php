@@ -27,7 +27,7 @@
                     <button class="btn btn-outline-secondary rounded-circle" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
                 </li>
                 <li class="nav-item pe-4">
-                    <a href="#" class="btn" role="button" data-bs-toggle="button"><i class="bi bi-cart2"></i></a>
+                    <a href="cart" class="btn" role="button" data-bs-toggle="button"><i class="bi bi-cart2"></i></a>
                 </li>
                 <li>
                     @guest

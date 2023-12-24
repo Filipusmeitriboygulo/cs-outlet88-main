@@ -1,4 +1,4 @@
-@extends('home')
+@extends('layout_products')
      
 @section('content')
       
